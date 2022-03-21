@@ -1,0 +1,1021 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #f6f6f8;
+}
+
+li,
+a,
+h3,
+button {
+  font-family: CircularStd;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+.LP {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.nav-links {
+  list-style: none;
+}
+.DEM {
+  border: none;
+  font-size: 16px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+.GTB {
+  border-radius: 4.5px;
+  border: solid 0.9px #c31a12;
+  background-color: #f0544c;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: CircularStd;
+  font-weight: 500;
+  border: none;
+}
+.book {
+  width: 554px;
+  height: 548px;
+  max-width: 100%;
+}
+.book-info{
+ padding-left: 30px;
+}
+
+.box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.book-info h1 {
+  width: 513px;
+  margin: 0 0 47px;
+  font-family: CircularStd;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  color: dark-grey;
+  max-width: 100%;
+}
+.list1 li {
+  margin: 0 0 1px 10px;
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.50px;
+  color: dark-grey;
+}
+
+
+.benefits {
+  list-style: none;
+}
+
+.benefits li {
+  margin: 4px 0;
+}
+.feedback{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.benefits li::before {
+  font-family: sans-serif;
+  content: "✔";
+  color: #5454d4;
+  display: inline-block;
+  width: 1em;
+  background-color: rgba(84,84,212,0.1);
+  padding-left: 3px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+
+
+
+.GTB29 {
+  width: 293px;
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.59px;
+  text-align: center;
+  color: white;
+  background-color:#f0544c;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-top: 52px;
+  margin-bottom: 15px;
+  
+}
+
+.Chapters{
+  margin: 50px auto;
+}
+
+.desc1 {
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: #19191b;
+}
+.Jonathan-Taylor {
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.59px;
+  color: #19191b;
+}
+.comment {
+  width: 45%;
+  padding: 0 30px;
+}
+.Chapters h2 {
+ 
+  margin: 0 0 16px;
+  font-family: CircularStd;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  text-align: center;
+  color: #19191b;
+  
+}
+.Chapters p {
+  
+  margin: 16px auto;
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  text-align: center;
+  color: #696871;
+  
+  
+}
+.Chapter-01 {
+  
+  font-family: CircularStd;
+  font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  color: #5454d4;
+}
+.wrapper h2 {
+  font-family: CircularStd;
+  font-size: 21.6px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.68px;
+  color: #19191b;
+  margin-bottom: 20px;
+}
+.wrapper p {
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: #19191b;
+}
+
+  
+  .button{
+    width: 219px;
+    height: 54px;
+    padding: 15px;
+    border-radius: 4.5px;
+    border: solid 0.9px #c31a12;
+    background-color: #f0544c;
+    margin-left: 30px;
+    margin: 25px;
+    text-align: center;
+    font-family: CircularStd;
+    font-size: 21.6px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+
+    
+    
+}
+
+  .button a{
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.59px;
+  text-align: center;
+  color: white;
+  }
+
+.BG-child{
+  width: 50%;
+  margin: 40px auto;
+  border-radius: 9px;
+  box-shadow: 0 11px 31px -10px rgba(65, 62, 101, 0.1);
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  
+}
+.wrapper {
+ padding-left: 80px;
+  
+}
+
+.features img {
+  width: 28px;
+  height: 33px;
+  object-fit: contain;
+  
+}
+
+.features{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 20px auto;
+}
+.features .f1{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.features h3 {
+  margin: 38px 16px 13px 17px;
+  font-family: CircularStd;
+  font-size: 21.6px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.68px;
+  text-align: center;
+  color: #19191b;
+}
+
+
+.features p {
+  width: 280px;
+  height: 76px;
+  margin: 13px 0 0;
+  font-family: CircularStd;
+  font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #696871;
+}
+
+.opportunities{
+  
+  text-align: center;
+  margin-top: 40px;
+}
+.opportunities h2{
+  font-family: CircularStd;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  text-align: center;
+  color: #19191b;
+}
+ 
+.opportunities p{
+  
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  text-align: center;
+  color: #696871;
+}
+
+.card {
+  border-radius: 9px;
+  border: solid 0.9px #eae9f2;
+  background-color: white;
+  width: 280px;
+  padding: 20px;
+  margin: 20px;
+  padding-bottom: 30px;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+}
+.card ul {
+  list-style: none;
+}
+
+.cards-container{
+  margin: 0 auto;
+}
+
+.card li{
+  margin: 4px 0;
+  position: relative;
+}
+.card li strong{
+  position:absolute;
+}
+.card li::before{
+  content: "✔";
+  color: white;
+  display: inline-block;
+  width: 1em;
+  background: #5454d4;
+  padding-left: 3px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+.rectangle-1 {
+  width: 60%;
+  padding: 10px;
+  margin: 50px auto;
+  padding: 32px 50px 27px 10px;
+  border-radius: 9px;
+  box-shadow: 0 47px 49px 0 rgb(65 62 101 / 30%);
+  background-color: rgba(30, 30, 65, 0.822);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.b1 {
+  width: 122px;
+  height: 121px;
+  margin: 0 44px 0 0;
+  object-fit: contain;
+}
+.p1 h3  {
+  margin: 10px auto;
+  font-family: CircularStd;
+  font-size: 21.6px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.68px;
+  color: white;
+
+}
+
+
+.data {
+  margin-bottom: 40px;
+  font-family: CircularStd;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  text-align: center;
+  color: #5454d4;
+}
+
+
+.data-container {
+  display: flex;
+  justify-content: center;
+}
+.data p {
+  width: 283px;
+  height: 70px;
+  margin: 16px 0 0;
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  text-align: center;
+  color: #696871;
+}
+
+.reviews {
+  text-align: center;
+}
+
+.reviews h2 {
+  color: black;
+  font-family: CircularStd;
+  font-size: 54px;
+  line-height: 1.56;
+  letter-spacing: -0.51px;
+}
+
+.reviews p {
+  color: black;
+  width: 372px;
+  margin: 12px auto;
+  font-family: CircularStd;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: -0.51px;
+  
+}
+.readers {
+  width: 315px;
+  height: 363px;
+  margin-left: 40px;
+  padding: 35px 16px 31px 33px;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  background-color: var(--white);
+}
+
+.readers-content {
+  width: 266px;
+  height: 176px;
+  margin: 27px 0 29px;
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: #19191b;
+}
+
+.reader-name {
+  display: flex;
+  padding-top: 30px;
+}
+.readers-container {
+  display: flex;
+  justify-content: center;
+}
+.starRating {
+  display: flex;
+}
+
+.reader-name p {
+ padding-left: 20px;
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.59px;
+  color: #19191b;
+}
+.reader-name p span{
+ display: block;
+ font-weight: normal;
+  font-size: 14.4px;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  color: #696871;
+}
+
+.link{
+  margin: 48px 0;
+  font-family: CircularStd;
+  font-size: 14.4px;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #5454d4;
+}
+.About-the-author h2{
+  font-family: CircularStd;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  text-align: center;
+  color: #19191b;
+  margin: 50px auto;
+}
+
+.author-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 50px;
+}
+.JW {
+  margin: 0 50px 0 0;
+  object-fit: contain;
+}
+.author-info h3 {
+  font-family: CircularStd;
+  font-size: 21.6px;
+  font-weight: bold;
+  letter-spacing: -0.68px;
+  color: #19191b;
+}
+
+.social {
+  color: #19191b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.Hey-My-name-is-Jose {
+  width: 509px;
+  height: 252px;
+  margin: 26px 0 0;
+  font-family: CircularStd;
+  font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  color: #696871;
+}
+
+.Pricing-Plans {
+  background-color: #413e65;
+  padding-bottom: 40px;
+}
+.Pricing-Plans h2{
+  font-family: CircularStd;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+.Create-custom-landin6 {
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: white;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  text-align: center;
+}
+
+.plan-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accessibility {
+  padding-top: 30px;
+  font-family: CircularStd;
+  font-size: 14.4px;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #5454d4;
+}
+h2.price {
+  font-family: CircularStd;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.93;
+  letter-spacing: -0.93px;
+  text-align: center;
+  color: #1d293f;
+
+}
+.p1 span {
+  
+
+  font-family: CircularStd;
+  position: absolute;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  
+}
+.RectangleEmailBox {
+  padding: 20px;
+  border-radius: 9px;
+  border: solid 0.9px #eae9f2;
+  background-color: #f7f7fb;
+  text-align: center;
+}
+.envelope {
+  width: 18px;
+  height: 14px;
+  padding: 1px 0 6px 1px;
+  border-radius: 1.8px;
+  border: solid 1.8px #cdccd9;
+}
+.plan {
+  background-color: #ffffff;
+  margin: 40px 20px;
+  width: 300px;
+  height: 360px;
+  border-radius: 10px
+}
+
+.plan-info {
+  padding: 25px 45px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.text-center {
+  text-align: center;
+}
+.freeChapter {
+  width: 290px;
+  margin: 0 auto;
+  padding: 15px 35px;
+  border-radius: 4.5px;
+  border: solid 0.9px #3d3dad;
+  background-color: #5454d4;
+  text-align: center;
+}
+.freeChapter a{
+  color: #fff;
+  width: 100%;
+}
+.amazoneButton {
+  border-radius: 4.5px;
+  border: solid 0.9px #c31a12;
+  background-color: #f0544c;
+  width: 290px;
+  margin: 65px auto 0;
+  padding: 15px 35px;
+  border-radius: 4.5px;
+  text-align: center;
+  border: 0;
+}
+
+.amazoneButton a{
+  color: white;
+}
+
+.arrow-icon {
+  width: 27px;
+  height: 27px;
+  padding: 10px 8px 9px 7px;
+  background-color: #5454d4;
+  border-radius: 50%;
+}
+
+.FAQ h3 {
+  margin: 0 20px;
+  font-family: CircularStd;
+  font-size: 21.6px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.68px;
+  color: white;
+}
+.FAQ p {
+  width: 418px;
+  height: 50px;
+  margin: 13px 0 0 19px;
+  font-family: CircularStd;
+  font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  color: white;
+}
+
+.p1 p {
+ 
+  font-family: CircularStd;
+  font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: 0.51px;
+  color: whitesmoke
+}
+
+.FAQ {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0px !important;
+}
+
+.Learn {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+}
+
+.Learn h2 {
+  font-family: CircularStd;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+}
+.Learn p {
+  width: 78%;
+  font-family: CircularStd;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: #696871;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 60px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  display: inline;
+}
+
+.footer-links li a {
+  padding-left: 20px;
+  font-family: CircularStd;
+  font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.38;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #19191b;
+}
+.ARR {
+  font-family: CircularStd;
+  font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.38;
+  letter-spacing: -0.45px;
+  color: #19191b;
+  
+}
+
+@media (max-width:767px) {
+  .LP{
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  .arrow-icon {
+    width: 27px;
+    height: 27px;
+    padding: 15px 5px 15px 20px;
+    background-color: #5454d4;
+    border-radius: 50%;
+  }
+  .nav-links{
+    width: 100%;
+    padding: 10px;
+  }
+  .Logo{
+    width: 100%;
+    text-align: center;
+  }
+  .box-1{
+    display: block;
+    max-width: 100%;
+  }
+
+  .book-info {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .book-info h1 {
+    font-size: 32px;
+    text-align: center;
+    width: auto;
+    padding: 0 20px;
+  }
+
+  .features p {
+    width: auto;
+  }
+  .feedback {
+    display: block;
+    text-align: center;
+  }
+
+  .card {
+    margin: 20px auto;
+  }
+
+  .comment {
+    width: 100%;
+  }
+
+  .BG-child {
+    width: 100%;
+    display: block;
+    padding: 10px;
+  }
+
+  .one {
+    text-align: center;
+  }
+
+  .wrapper {
+    padding: 20px;
+  }
+
+  .features, .parent, .data-container, .readers-container, .author-info, .plan-cards, .Learn  {
+    display: block;
+  }
+  .benefits li{
+    margin: 2px 0;
+  }
+  .list1 li{
+    margin: 0 0 5px 15px;
+    font-family: CircularStd;
+    font-size: 12.9px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: dark-grey;
+    padding: 1px;
+  }
+
+  .rectangle-1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .button {
+    margin: 20px auto;
+  }
+
+  .Chapters h2, .Pricing-Plans h2, .Learn h2 {
+    font-size: 32px;
+  }
+
+  .data p {
+    width: auto;
+  }
+
+  .readers {
+    margin: 20px auto;
+  }
+
+  .reviews h2 {
+    font-size: 32px;
+  }
+
+  .reviews p {
+    width: 100%;
+  }
+
+  .About-the-author h2 {
+    font-size: 32px;
+  }
+  .author-info  {
+    padding-left: 30px;
+    text-align: center;
+  }
+
+  .plan {
+    margin: 40px auto;
+  }
+
+  .FAQ {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .FAQ p {
+    width: auto;
+    margin-bottom: 80px;
+  }
+
+  .Learn {
+    padding: 30px;
+  }
+
+  .Learn p {
+    padding-bottom: 30px;
+  }
+
+  .footer {
+    display: block;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .Hey-My-name-is-Jose {
+    width: 80%;
+    margin: 20px auto;
+    height: auto;
+    text-align: left;
+}
+.book{
+  margin: 80px auto;
+  padding-right: 50px;
+}
+
+}
